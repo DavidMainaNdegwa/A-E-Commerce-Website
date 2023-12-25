@@ -1,0 +1,164 @@
+@font-face {
+    font-family:'Montserrat';
+    src: url ('C:\Users\user\html\Montserrat\static\Montserrat-ThinItalic.ttf') format('tff');
+}
+
+&reg{
+font-size: smaller;
+}
+
+h1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 50px;
+text-align: center;
+color:white;
+margin:0px;
+border:0 px;
+padding:0px;
+font-weight: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgba(230, 0, 0, 0.61);
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+}
+
+li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 100px;
+}
+
+li a:hover {
+    COLOR: rgb(0, 0, 153);
+}
+
+.wrapper{
+background-color: #000099;
+margin:0px auto;
+width:100%;
+z-index: 4;
+position:fixed;
+}
+
+.dropdown-content{
+display:none;
+position:inline-block;
+background-color: rgb(255, 255, 255);
+min-width: 10px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);
+padding: 0.2px 0.2px;
+text-align: center;
+z-index: 1;
+}
+
+.wrapper:hover .dropdown-content{
+    display:block;
+}
+.Davis-Shirtliff{
+    width:300px;
+    height:70px;
+    background-image: url("C:/Users/user/HTML/davis-shirtliff.png");
+    background-size:75%;
+    background-repeat: no-repeat;
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+margin:0px;
+}
+
+select{
+    width:40px;
+    height:20px;
+    border:1px solid #000000;
+}
+.G-search select option:hover{
+   background-color: rgb(206, 206, 206);
+  
+}
+
+.form{
+    background-color:#ffff00;
+    padding-top: 1px;
+    position: relative;
+    top:5.38vw;
+    z-index:2;
+}
+.menubar{
+    background-color:#ffff00;
+    padding:2px 4px 2px 4px;
+    align-items: baseline;
+    display:inline-flex;
+    border-radius:3px;
+    border: 1px solid #000099;
+    margin:0 1px 0 1px;
+    /*outline:thin groove;*/
+}
+
+.G-search{ /*This class stands for the drop down menu*/
+    float:left;
+}
+
+.form-group{ /*This class stands for the search bar and the button*/
+    float:right;
+    align-items: baseline;
+    
+}
+
+.button{
+    margin-top:0px;
+    padding:0px;
+    border:0px;
+    background-image:url("pictures/icons8-google-web-search-50 (2).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 21px;
+    float:right;
+    background-position: 0 0;
+}
+.button:hover{
+    background-image:url("pictures/icons8-google-web-search-50.png");
+   position: relative;
+   background-color:#ffff00;
+   background-position: 0px 0px;
+}
+
+
+@media only screen and (min-width: 412px) {
+    .wrapper{
+        width:100%;
+        }  
+
+    .picture{
+           margin:0 auto;
+        }
+
+    .form{
+        background-color: #ffff00;
+        position: relative;
+    }
+
+}
+@media only screen and (max-width:412px) {
+    /*.form{
+        width:100%;
+        background-color: #ffff00;
+        }*/
+    }
