@@ -89,7 +89,7 @@ margin:0px;
     border-radius:3px;
     border: 1px solid #000099;
     margin:0 1px 0 1px;
-    height: 21px;
+    height: 12px;
     /*outline:thin groove;*/
 }
 
@@ -97,7 +97,7 @@ margin:0px;
     float:left;
     cursor: pointer;
     width:40px;
-    height:21px;
+    height:12px;
     border-radius: 0px;
     outline:none;
     border: 0px;
@@ -107,9 +107,9 @@ margin:0px;
 #inputfield{
     border: 0px;
     border-radius: 0px;
-    width: 200px;
+    width: 10em;
     outline: none;
-    height:19px;
+    height:12px;
 }
 
 
@@ -128,8 +128,8 @@ margin:0px;
     background-position: 0 0;
     height: 21px;
     width: 21px;
-    float:right;
     cursor: pointer;
+    float:right;
 }
 
 #button:hover{
@@ -171,6 +171,10 @@ select[name="account"]:hover{
     .form{
         background-color:#ffff00;
         position: relative;
+    }
+
+    .input-field{
+        width: 21px;
     }
 
     select[name="account"]{
