@@ -109,7 +109,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0px;
     outline: none;
     height:12px;
-    width:48px;
+    width:120px;
 }
 
 
@@ -135,8 +135,6 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .customer-side{
-    
-   
     padding-left:2px;
 }
 
