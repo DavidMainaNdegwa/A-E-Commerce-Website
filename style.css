@@ -130,6 +130,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 21px;
     cursor: pointer;
     float:right;
+    outline-style:none;
 }
 
 #button:hover{
