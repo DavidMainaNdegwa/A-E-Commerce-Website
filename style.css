@@ -3,9 +3,8 @@ font-size: smaller;
 }
 
 h1{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/* font-family:'Montserrat-semi bold',sans-serif; */
-font-size: 50px;
+/*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+font-size:4vw;
 text-align: center;
 color:white;
 margin:0px;
@@ -110,7 +109,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 0px;
     outline: none;
     height:12px;
-    width:12vw;
+    width:12px;
 }
 
 
@@ -120,10 +119,10 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } */
 
 #button{
-    margin-top:0px;
+    /*margin-top:0px;
     padding:0px;
-    border: 0px;
-    background-image:url("pictures/icons8-search-50\(5\).png");
+    border: 0px; */
+    background-image: url("pictures/icons8-search-50\(5\).png");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: 0 0;
