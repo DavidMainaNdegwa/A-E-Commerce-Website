@@ -139,7 +139,6 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-image: url('pictures/person_FILL0_wght400_GRAD0_opsz24.png');
 width:29px;
 height:23px;
-background-color: grey;
 } 
 
 
@@ -150,7 +149,6 @@ background-color: grey;
 
     .form{
         background-color:red;
-        position: relative;
         }    
     #inputfield{
             width:180px;
