@@ -131,15 +131,38 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .customer-side{
-    padding-left:2px;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.customer-side2{
+    display:flex;
+}
+
+.account{
+    display:flex;
+    flex-flow: row nowrap;
+
+}
 
 .login-icon{
-background-image: url('pictures/person_FILL0_wght400_GRAD0_opsz24.png');
-width:29px;
-height:23px;
+    background-image: url('pictures/person_FILL0_wght400_GRAD0_opsz24.png');
+    display:flex;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    width:27px;
+    height:23px;
+    background-color: #000099;
 } 
+
+#returns-orders{
+    display:flex;
+}
+
+#cart{
+    dispplay:flex;
+}
 
 
 @media screen and(min-width:412px) {
