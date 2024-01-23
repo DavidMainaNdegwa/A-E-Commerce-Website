@@ -17,7 +17,6 @@
 
         <form class="form">
             <div class="menubar">
-                <nav class="G-search">
                     <select type="radio" id="radio" name="radio-button">
                             <option value="All">All</option> 
                             <option value="Water Pumps">Water Pump</option>
@@ -26,29 +25,28 @@
                             <option value="Spare parts">Spare parts</option>
                     </select>
                     
-                        <input type="text" id="inputfield" name="inputfield" placeholder="Search Ibrahims">
-                        <button id="button"></button>
-                </nav>
+                        <div id="input-field"><input type="text" id="inputfield" name="inputfield" placeholder="Search Ibrahims"></div>
+                        <div id="but-ton"><button id="button"></button></div>
             </div>
            
             <div class="customer-side">
-            <div class="customer-side2">
+                <div class="customer-side2">
 
-                <div class="account">
-                    <div class="login-icon">
-                        <form action="submit-form" method="post">
-                            <select type="radio" id="login-icon" name="radio-button">
-                                <option value="Account">Account</option>
-                            </select>
-                        </form>
+                    <div class="account">
+                        <div class="login-icon">
+                            <form action="submit-form">
+                                <select type="radio" id="login-icon" name="radio-button">
+                                    <option value="Account">Account</option>
+                                </select>
+                            </form>
+                        </div>
+                            <div id="cart"></div>
+                            <div id="returns-orders"></div>
                     </div>
-                        <div id="cart"></div>
-                        <div id="returns-orders"></div>
+
+
+
                 </div>
-
-
-
-            </div>
             </div>
         </form>
         
