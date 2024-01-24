@@ -44,6 +44,11 @@ z-index: 4;
 position:fixed;
 }
 
+@media screen and(min-width:412px) {
+    .wrapper{
+        width:50%;
+        } 
+}
 .dropdown-content{ /*since 1990 dropdown when i go to the top of the page*/
 display:none;
 position:inline-block;
@@ -75,6 +80,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:flex;
     align-items: baseline;
 }
+
 .menubar{
     display: flex;
     background-color:white;
@@ -85,7 +91,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid #000099;
     margin:0 1px 0 1px;
     height: 21px;
-    width: 181px;
+    flex-basis: 181px;
     /*outline:thin groove;*/
 }
 
@@ -93,27 +99,32 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     cursor: pointer;
     width:40px;
-    height:21px;
+    /* height:21px; */
     border-radius: 0px;
     outline:none;
     border: 0px;
     overflow: hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
-    background-color: #f0eeee;
+    background-color:#000099;
+    color:white;
 }
 
 #inputfield{
     display:flex;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
     border:0px;
     border-radius: 0px;
     outline: none;
     height:21px;
-    width:120px;
-    box-sizing: border-box;
-    background-color: antiquewhite;
+    width: 100%
 }
-
+@media screen and(min-width:412px){
+    #inputfield{
+        width:180px;
+    }    
+}
 
 /*.form-group{ /*This class stands for the search bar and the button
     float:right;
@@ -123,7 +134,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 #button{
     display: flex;
     border: 1px;
-    background-image: url('C:\Users\user\html\pictures\icons8-search-50(5).png');
+    background-image: url('../pictures/icons8-search-50\(5\).png');
     background-size:cover;
     background-repeat:no-repeat;
     background-position: 0 0;
@@ -167,17 +178,18 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } */
 
 select[id=login-icon]{
-    width:70px;
-    background-image: url('pictures/person_FILL0_wght400_GRAD0_opsz24.png');
+    width:45px;
+    background-image: url('../pictures/person_FILL0_wght400_GRAD0_opsz40.png');
     display:flex;
-    /*background-size:cover;
+    background-size:29px 29px; /* */
     background-repeat:no-repeat;
-    background-position: 0 0; */
-    background-color:blue ;
+    background-position:-2px -4px; /*horizontal and vertical positions*/
+    background-color:#ffff00;
+    color:#000099;
     outline:none;
     border: 0px;
     border-radius: 0px;
-    height: 21px;
+    height:100%;
 }
 
 #returns-orders{
@@ -187,11 +199,20 @@ select[id=login-icon]{
     background-color: aqua;
 }
 
-#cart{
+
+select[id="help"]{
     display:flex;
-    height: 21px;
-    width: 21px;
-    background-color: blueviolet;
+    width: 40px;
+    height: 100%;
+    background-image: url("../pictures/help_FILL0_wght400_GRAD0_opsz24.png");
+    background-position:0px -1.5px;
+    background-size:"100% 100%";
+    background-repeat: no-repeat;
+    outline:none;
+    border:0px;
+    border-radius:0px;
+    background-color: #ffff00;
+    color: #000099;
 }
 
 
