@@ -153,7 +153,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-flow: row nowrap;
     align-items:stretch;
     width: 200px;
-    background-color: #f0eeee;
+    /* background-color: #f0eeee; */
 }
 
 .customer-side2{
@@ -179,17 +179,24 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 select[id=login-icon]{
     width:45px;
-    background-image: url('../pictures/person_FILL0_wght400_GRAD0_opsz40.png');
+    background-image: url('../pictures/person_FILL0_wght400_GRAD200_opsz40.png');
     display:flex;
-    background-size:29px 29px; /* */
+    background-size:26px 26px; /* */
     background-repeat:no-repeat;
-    background-position:-2px -4px; /*horizontal and vertical positions*/
+    background-position:-1px -3px; /*horizontal and vertical positions*/
     background-color:#ffff00;
     color:#000099;
-    outline:none;
-    border: 0px;
-    border-radius: 0px;
+    outline-style:none;
     height:100%;
+    cursor:pointer;
+    border-left:0px;
+    border-right:2px solid;
+    border-top:0px;
+    border-bottom:0px;
+}
+select[id=login-icon]:hover{
+    filter:brightness(90%);
+    border-radius: 1.5px;
 }
 
 #returns-orders{
@@ -202,29 +209,47 @@ select[id=login-icon]{
 
 select[id="help"]{
     display:flex;
-    width: 40px;
+    width: 45px;
     height: 100%;
-    background-image: url("../pictures/help_FILL0_wght400_GRAD0_opsz24.png");
-    background-position:0px -1.5px;
-    background-size:"100% 100%";
+    background-image: url("../pictures/help_FILL0_wght400_GRAD200_opsz40.png");
+    background-position:0px -1.4px;
+    background-size:26px 24px ;
     background-repeat: no-repeat;
     outline:none;
-    border:0px;
+    border-bottom: 0px;
+    border-left:0px;
+    border-right:2px solid;
+    border-top:0px;
     border-radius:0px;
     background-color: #ffff00;
     color: #000099;
+    cursor:pointer;
+}
+select[id="help"]:hover{
+    filter:brightness(90%);
+    border-radius: 1.5px;
 }
 
+select[id="cart"]{
+    display:flex;
+    width: 45px;
+    height: 100%;
+    background-image: url("../pictures/shopping_cart_FILL0_wght400_GRAD0_opsz40.png");
+    background-position:0px -1.4px;
+    background-size:26px 24px ;
+    background-repeat: no-repeat;
+    outline:none;
+    border-left:0px;
+    border-right:2px solid;
+    border-top:0px;
+    border-bottom:0px;
+    border-radius:0px;
+    cursor:pointer;
+    background-color:#ffff00;
+    color: #000099;
+}
 
-@media screen and(min-width:412px) {
-    .wrapper{
-        width:50%;
-        } 
-
-    .form{
-        background-color:red;
-        }    
-    #inputfield{
-            width:180px;
-        }    
+select[id="cart"]:hover{
+    filter:brightness(90%);
+    border-radius: 1.5px;
 }
