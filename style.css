@@ -178,13 +178,13 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } */
 
 select[id=login-icon]{
-    width:45px;
+    width:95px;
     background-image: url('../pictures/person_FILL0_wght400_GRAD200_opsz40.png');
     display:flex;
     background-size:26px 26px; /* */
     background-repeat:no-repeat;
     background-position:-1px -3px; /*horizontal and vertical positions*/
-    background-color:#ffff00;
+    /*background-color:#ffff00; */
     color:#000099;
     outline-style:none;
     height:100%;
@@ -193,6 +193,8 @@ select[id=login-icon]{
     border-right:2px solid;
     border-top:0px;
     border-bottom:0px;
+    text-align: end;
+    text-align:bottomgGgggg;
 }
 select[id=login-icon]:hover{
     filter:brightness(90%);
